@@ -22,3 +22,12 @@
     left: -34px;
     top: 25px;
   }
+  #youtube-video {
+    background: url(../src/images/Screenshot_1\ 2.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 0px;
+  }
