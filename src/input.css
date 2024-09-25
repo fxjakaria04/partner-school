@@ -31,3 +31,6 @@
     background-repeat: no-repeat;
     padding: 0px 0px;
   }
+  .saya {
+    box-shadow: 2px 3px 5px gray;
+  }

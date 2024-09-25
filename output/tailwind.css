@@ -787,10 +787,6 @@ video {
   width: 11rem;
 }
 
-.w-5\/12 {
-  width: 41.666667%;
-}
-
 .w-5\/6 {
   width: 83.333333%;
 }
@@ -1557,6 +1553,10 @@ video {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0px 0px;
+}
+
+.saya {
+  box-shadow: 2px 3px 5px gray;
 }
 
 .hover\:text-gray-400:hover {

@@ -92,10 +92,10 @@
         <div class="w-full flex justify-between md:justify-start flex-col md:flex-row border-b pb-3">
             <div class="md:mr-3 md:mb-0 mx-2 md:w-3/12 flex items-center justify-between flex-row">
                 <div class="flex items-center justify-center flex-row">
-                    <i class="fa-solid fa-house-chimney-user md:text-2xl text-xl bg-[#65A5FE] p-2 mr-2"></i>
-                    <div class="text-left">
-                        <p class="text-[#65A5FE] font-semibold">Account</p>
-                        <p class="text-[#6F6E6E]">Enter credentials</p>
+                    <i class="fa-solid fa-house-chimney-user md:text-2xl text-xl p-2 mr-2 bg-[#D9D9D9]"></i>
+                    <div class="text-left text-[#6F6E6E]">
+                        <p class="font-semibold">Account</p>
+                        <p>Enter credentials</p>
                     </div>
                 </div>
                 <div>
@@ -116,9 +116,9 @@
             </div>
             <div class="md:mr-3 md:mb-0 mx-2 md:w-3/12 flex items-center justify-between flex-row">
                 <div class="flex items-center justify-center flex-row">
-                    <i class="fa-solid fa-house-chimney-user md:text-2xl text-xl bg-[#D9D9D9] p-2 mr-2"></i>
+                    <i class="fa-solid fa-house-chimney-user md:text-2xl text-xl p-2 mr-2 bg-[#65A5FE]"></i>
                     <div class="text-left text-[#6F6E6E]">
-                        <p class="font-semibold">Account</p>
+                        <p class="font-semibold text-[#65A5FE]">Account</p>
                         <p class="">Enter credentials</p>
                     </div>
                 </div>
@@ -137,63 +137,53 @@
                     <p class="text-[##111111] font-semibold text-2xl">Select Plan</p>
                     <p class="text-[##111111] text-lg">Fill the below form to create a new account</p><br>
                 </div>
-                <form action="" class="w-full">
-                    <div class="md:flex md:items-center">
-                        <div class="mb-3 md:w-3/6">
-                            <label for="">First Name</label><br>
-                            <input class="md:w-4/6 w-full" type="text" name="" id="" placeholder="your fast name">
-                        </div>
-                        <div class="mb-3 md:w-3/6">
-                            <label for="">Last Name</label><br>
-                            <input class="md:w-4/6 w-full" type="text" name="" id="" placeholder="your last name">
-                        </div>
+                <div class="mb-5 w-full md:flex md:items-center md:justify-around">
+                    <div class="md:mb-0 mb-5 cursor-pointer p-5 bg-[#D9D9D9] text-center shadow-blue-950 saya">
+                        <p class="font-semibold text-xl my-1">SMS Package</p>
+                        <p class="text-lg">3000 TK/Year</p>
+                        <p class="text-xs">1050 SMS Balance</p>
                     </div>
-                    <div class="md:flex md:items-center">
-                        <div class="mb-3 md:w-3/6">
-                            <label for="">Phone</label><br>
-                            <input class="md:w-4/6 w-full" type="number" name="" id="" placeholder="0123456789">
-                        </div>
-                        <div class="mb-3 md:w-3/6">
-                            <label for="">Postcode</label><br>
-                            <input class="md:w-4/6 w-full" type="number" name="" id="" placeholder="1234">
-                        </div>
+                    <div class="cursor-pointer p-5 bg-[#D9D9D9] text-center shadow-blue-950 saya">
+                        <p class="font-semibold text-xl my-1">SMS Package</p>
+                        <p class="text-lg">10000 TK/Year</p>
+                        <p class="text-xs">3300 SMS Balance</p>
                     </div>
-                    <div class=" md:flex md:items-center w-full">
-                        <div class="mb-3 md:w-4/6">
-                            <label for="">Address</label><br>
-                            <input class="md:w-4/6 w-full" type="text" name="" id="" placeholder="full address">
-                        </div>
-                        <div class="mb-3 md:w-4/6">
-                            <label for="">Company</label><br>
-                            <input class="md:w-4/6 w-full" type="text" name="" id="" placeholder="company name">
-                        </div>
+                </div>
+                <div class="mb-5 w-full md:flex md:items-center md:justify-around">
+                    <div class="cursor-pointer p-5 bg-gradient-to-b from-[#A6A4A7] via-[#DDCFED] to-[#9E95A9] text-center saya">
+                        <p class="font-semibold text-xl my-1">SMS Package</p>
+                        <p class="text-lg">5000 TK/Year</p>
+                        <p class="text-xs">1700 SMS Balance</p>
                     </div>
-                    <div class=" md:flex md:items-center w-full">
-                        <div class="mb-3 md:w-4/6">
-                            <label for="">City</label><br>
-                            <input class="md:w-4/6 w-full" type="text" name="" id="" placeholder="City Name">
-                        </div>
-                        <div class="mb-3 md:w-4/6">
-                            <label for="">Country</label><br>
-                            <input class="md:w-4/6 w-full" type="text" name="" id="" placeholder="Country name">
-                        </div>
-                    </div>
-                        <a href="#" class="text-[#65A5FE]">
+                </div>
+                <div class="w-full">
+                    <p class="text-[##111111] font-semibold text-2xl">Payment Options</p>
+                    <p class="text-[##111111] text-lg">Be sure to click on correct payment option</p><br>
+                    <form action="">
+                        <input type="radio" name="pay-meth" id="bank">
+                        <label for="bank">Bank</label><br>
+                        <input type="radio" name="pay-meth" id="m-bank">
+                        <label for="m-bank">Mobile Bank</label>
+                    </form>
+                    <div class="mt-3 md:mt-4">
+                        <a href="#" class="text-[#65A5FE] mt-5 hover:underline">
                             <i class="fa-solid fa-chevron-left text-[#111111]"></i>
                             Back to Login
                         </a>
-                </form>
+                    </div>
+                </div>
                 <div class="w-5/6 flex items-center justify-between mt-3">
                     <button class="border rounded-xl px-2 text-lg text-white bg-[#227FFF] hover:underline">
-                        <a href="billing.html">Previous</a>
+                        <a href="billing2.html">Previous</a>
                     </button>
                     <button class="border rounded-xl px-6 text-lg text-white bg-[#32A657] hover:underline">
-                        <a href="billing3.html">Sumbit</a>
+                        <a href="#">Sumbit</a>
                     </button>
                 </div>
+                
             </div>
-            <div class="md:w-5/12 flex items-center justify-center">
-                <img src="src/images/Group 59.png" class="md:w-11/12 w-full" alt="">
+            <div class="flex items-center justify-center w-5/12">
+                <img src="src/images/Group 59.png" class="md:w-10/12 w-full" alt="">
             </div>
         </div>
     </div>
