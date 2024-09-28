@@ -52,4 +52,14 @@
     @apply font-medium text-sm text-blue-600 dark:text-blue-500 hover:underline border-blue-600 border py-1 px-2 rounded-xl
     hover:border-transparent hover:text-white hover:bg-blue-600;
   }
+  .wraper {
+    @apply w-10/12 m-auto;
+  }
+  .grow-up {
+    @apply hover:scale-110 duration-150;
+  }
+  .btn-mouse-over {
+    @apply hover:text-[#32A657] hover:bg-white border border-green-600;
+  }
+
 }

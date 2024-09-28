@@ -668,6 +668,29 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
+.grow-up {
+  transition-duration: 150ms;
+}
+
+.grow-up:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.btn-mouse-over {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(22 163 74 / var(--tw-border-opacity));
+}
+
+.btn-mouse-over:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(50 166 87 / var(--tw-text-opacity));
+}
+
 .absolute {
   position: absolute;
 }
@@ -741,11 +764,6 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .my-8 {
@@ -865,6 +883,10 @@ video {
   height: 250;
 }
 
+.h-\[95px\] {
+  height: 95px;
+}
+
 .w-1\/5 {
   width: 20%;
 }
@@ -883,6 +905,10 @@ video {
 
 .w-2\/5 {
   width: 40%;
+}
+
+.w-3\/12 {
+  width: 25%;
 }
 
 .w-3\/6 {
@@ -1070,24 +1096,19 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-blue-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(37 99 235 / var(--tw-border-opacity));
-}
-
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
+.border-green-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(22 163 74 / var(--tw-border-opacity));
+}
+
 .bg-\[\#31777B\] {
   --tw-bg-opacity: 1;
   background-color: rgb(49 119 123 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#3247A6\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(50 71 166 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#32A657\] {
@@ -1153,11 +1174,6 @@ video {
 .bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-}
-
-.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 .bg-green-500 {
@@ -1581,16 +1597,6 @@ video {
   color: rgb(252 248 248 / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
 .text-blue-700 {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity));
@@ -1655,30 +1661,16 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .duration-1000 {
   transition-duration: 1000ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
 }
 
 .duration-150 {
   transition-duration: 150ms;
 }
 
-.ease-in {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+.duration-200 {
+  transition-duration: 200ms;
 }
 
 .hover\:scale-110:hover {
@@ -1703,9 +1695,19 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.hover\:text-gray-400:hover {
+.hover\:bg-gray-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-\[\#32A657\]:hover {
   --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
+  color: rgb(50 166 87 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1725,11 +1727,6 @@ video {
 .dark\:bg-gray-800:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-.dark\:text-blue-500:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .dark\:text-gray-400:is(.dark *) {
@@ -1774,11 +1771,6 @@ video {
   .md\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
-  }
-
-  .md\:my-0 {
-    margin-top: 0px;
-    margin-bottom: 0px;
   }
 
   .md\:mb-0 {
