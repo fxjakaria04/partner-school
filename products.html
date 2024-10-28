@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMIT Partnership Program</title>
+    <link rel="stylesheet" href="output/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="dark:bg-gray-800 bg-[#FCF8F8] duration-1000">
+    <div class="navbar border-3 bg-gradient-to-t from-[#E7E6E6] via-[#E6EDED] to-[#63A959]">
+        <div class="top-nav md:flex md:items-center md:justify-between md:mx-32 sm:mx-10">
+            <div class="contact w-full md:w-auto flex items-center text-sm">
+                <div class="phone m-2">
+                    <span class="md:flex md:items-center">
+                        <ion-icon name="call-outline"></ion-icon>
+                        +880 1860424344
+                    </span>
+                </div>
+                <div class="mail">
+                    <span class="md:flex md:items-center">
+                        <ion-icon name="mail-unread" class="mr-1"></ion-icon>
+                        mmitsolution18@gmail.com 
+                    </span>
+                </div>
+            </div>
+            <div class="icons text-xl hidden md:block">
+                <a href="#"><i class="fa-brands fa-facebook text-blue-700 hover:scale-125 duration-200"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube text-red-500 hover:scale-125 duration-200"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin text-blue-700 hover:scale-125 duration-200"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest text-red-600 hover:scale-125 duration-200"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter hover:scale-125 duration-200"></i></a>
+            </div>
+        </div>
+
+        <nav class="px-5 dark:bg-gray-700 border-b md:flex md:items-center md:justify-evenly">
+            <div class=" dark:text-white text-gray-950 w-full md:w-auto flex items-center justify-between">
+                <span class="text-2xl cursor-pointer">
+                    <a href="">
+                        <img src="src/images/logo2.png" class="w-44 inline" alt="">
+                    </a>
+                </span>
+                <span class="md:hidden flex items-center">
+                    <div class="mood flex items-center cursor-pointer md:block">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#"><i class="fa-solid fa-grip px-3 py-2"></i></a>
+                    </div>
+
+                    <div class="mood text-xs flex items-center md:hidden cursor-pointer">
+                        <ion-icon onclick="menu(this)" name="menu" class="text-2xl md:hidden px-3"></ion-icon>
+                    </div>
+                </span>
+            </div>
+            <ul class="text-gray-900 text-xl md:flex items-center md:static absolute w-full md:bg-transparent bg-white left-0 md:w-auto py-4 md:py-0 pl-7 md:pl-0 md:opacity-100 opacity-0">
+                <li class="nav-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html">services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="application.html">Partner</a>
+                </li>
+                <li class="nav-item">
+                    <a href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contract.html">Contract Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="partnership.html">Partnership</a>
+                </li>
+                <li class="nav-item">
+                    <a href="billing.html">Billing</a>
+                </li>
+                
+            </ul>
+    
+            <div class="mood text-xs items-center cursor-pointer hidden md:block">
+            </div>
+    
+            <div class="mood text-2xl hidden items-center cursor-pointer md:block">
+                <ion-icon name="search" class="px-3 py-2 rounded-l-xl hover:scale-125 duration-200"></ion-icon>
+                <ion-icon onclick="mood(this)" id="surjo"  class="px-3 py-2 rounded-r-xl hover:scale-125 duration-200" name="grid"></ion-icon>
+            </div>
+        </nav>
+        
+    </div>
+
+    
+    <div class="w-10/12 m-auto my-4">
+        <p class="text-2xl font-medium mb-3 text-[#333333]">Our Products</p>
+        <table class="border w-full" id="pagination-table">
+            <thead>
+                <tr class="border-b">
+                    <th class="py-2">
+                       <span class="text-center">
+                            Product Name
+                        </span>
+                    </th>
+                    <th>
+                       <span class="text-center">
+                            UserName
+                        </span>
+                    </th>
+                    <th data-type="date" data-format="Month YYYY">
+                       <span class="text-center">
+                            Password
+                        </span>
+                    </th>
+                    <th>
+                       <span class="text-center">
+                            Dashboard
+                        </span>
+                    </th>
+                    <th class="text-center">
+                        <span class="text-center">
+                            Primary Application
+                        </span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="w-full bg-gradient-to-b from-[#F0EBEB] via-[#E2E2E2] to-[#ACACAC]">
+        <footer class="w-10/12 m-auto md:flex md:items-center md:justify-between pt-6 mt-6 p-1">
+            <div class="flex items-center justify-center">
+                <img src="src/images/mmit-soft-logo (2) 2.png" class="w-10/12 hover:scale-110 duration-200" alt="">
+            </div>
+            <div class="text-green-700 flex items-start justify-center flex-col">
+                <a href="#" class="hover:underline text-[#091F70]">
+                    <i class="fa-solid fa-circle-check text-green-600"></i>
+                    ফ্রি ট্রায়াল এর জন্য আবেদন
+                </a>
+                <a href="#" class="hover:underline text-[#091F70]">
+                    <i class="fa-solid fa-circle-check text-green-600"></i>
+                    পার্টনার এর জন্য আবেদন
+                </a>
+                <a href="#" class="hover:underline text-[#091F70]">
+                    <i class="fa-solid fa-circle-check text-green-600"></i>
+                    গোপনীয়তা নীতি
+                </a>
+                <a href="#" class="hover:underline text-[#091F70]">
+                    <i class="fa-solid fa-circle-check text-green-600"></i>
+                    রিফান্ড পলিসি
+                </a>
+            </div>
+            <div class="text-green-700 flex items-start justify-center flex-col">
+                <a href="#" class="hover:underline text-[#091F70]">
+                    <i class="fa-solid fa-circle-check text-green-600"></i>
+                    পার্টনারশিপ প্রোগ্রাম
+                </a>
+                <a href="#" class="hover:underline text-[#091F70]">
+                    <i class="fa-solid fa-circle-check text-green-600"></i>
+                    ফটো গ্যালারি
+                </a>
+                <a href="#" class="hover:underline text-[#091F70]">
+                    <i class="fa-solid fa-circle-check text-green-600"></i>
+                    প্রাইস প্লান
+                </a>
+                <a href="#" class="hover:underline text-[#091F70]">
+                    <i class="fa-solid fa-circle-check text-green-600"></i>
+                    শর্তাবলী
+                </a>
+            </div>
+            <div class="flex items-center justify-center flex-col text-center">
+                <img src="src/images/MM IT Official Logo 2.png" alt="">
+                <p class="text-[#091F70] font-medium">
+                    <span>Haque Mension 5th Floor</span><br>
+                    <span>21/1, Zigatola Dhanmondi</span><br>
+                    <span>Dhaka, Bangladesh</span><br>
+                    <span>+880 1810023393</span><br>
+                    <span>mmitsolution18@gmail.com</span>
+                </p>
+                
+            </div>
+    </footer>
+        <div class="text-center text-white bg-gray-500 py-1">
+            <small>© ALL Copyright reserved <a href="index.html" class="hover:underline">MMIT SOLT LTD.</a></small>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        const softwareData = [
+            {
+                name: "School Management Software",
+                url: "https://mmitschool.online",
+                loginUrl: "https://mmitschool.online/login",
+                userEmail: "user-admin@gmail.com",
+                password: "12345678"
+            },
+            {
+                name: "Pos Software",
+                loginUrl: "https://www.pos.mmit.xyz",
+                userEmail: "admin@gmail.com",
+                password: "12345678"
+            },
+            {
+                name: "Accounting Software",
+                loginUrl: "https://www.pos.mmit.xyz"
+            },
+            {
+                name: "Pharmacy Software",
+                loginUrl: "https://pharmacy.mmitpharma.xyz/",
+                userEmail: "admin1@gmail.com",
+                password: "admin1@gmail.com"
+            },
+            {
+                name: "ISP Software",
+                loginUrl: "http://isp.mmit.xyz/admin",
+                userEmail: "admin@gmail.com",
+                password: "password"
+            },
+            {
+                name: "Advocate Software",
+                loginUrl: "https://advocate.mmit.xyz",
+                userEmail: "xdubuque@example.com",
+                password: "123456"
+            },
+            {
+                name: "Diagnostic Management System",
+                loginUrl: "https://diagnostic.tahsingreenlife.xyz/",
+                userEmail: "superadmin@gmail.com",
+                password: "12345678"
+            },
+            {
+                name: "Hotel Management Software Update",
+                loginUrl: "https://hotel.hesabmmit.xyz/login",
+                userEmail: "admin@mmit.com",
+                password: "123456789"
+            },
+            {
+                name: "E-Courier Management Software",
+                url: "https://www.parcel.mmitpharma.com",
+                loginUrl: "https://www.parcel.mmitpharma.com/login",
+                userEmail: "admin@gmail.com",
+                password: "admin@gmail.com"
+            },
+            {
+                name: "Dealership Management Software",
+                loginUrl: "https://dealer.mmit.xyz/",
+                userEmail: "superadmin@gmail.com",
+                password: "password"
+            },
+            {
+                name: "Agent Software Demo",
+                loginUrl: "https://institute.mmit.xyz/login",
+                userEmail: "mmit@gmail.com",
+                password: "12345678"
+            },
+            {
+                name: "Somite Management Software",
+                loginUrl: "https://somiti.hesabmmit.xyz/admin/login",
+                userEmail: "admin@gmail.com",
+                password: "123456789"
+            },
+            {
+                name: "Restaurant Management Software",
+                loginUrl: "https://restaurant.mmitpharma.xyz/",
+                userEmail: "superadmin@gmail.com",
+                password: "password"
+            },
+            {
+                name: "Coaching Demo",
+                loginUrl: "https://coaching.mmitpharma.xyz",
+                userEmail: "superadmin@gmail.com",
+                password: "admin@gmail.com"
+            },
+            {
+                name: "Apartment Demo",
+                url: "https://appartment.softzone24.com/admin/login",
+                loginUrl: "https://appartment.softzone24.com/admin/login",
+                userEmail: "admin@gmail.com",
+                password: "123456789"
+            },
+            {
+                name: "Computer Training Center",
+                loginUrl: "https://institute.dhakarkhoborbd.com",
+                userEmail: "admin@gmail.com",
+                password: "admin@gmail.com"
+            },
+            {
+                name: "Update Pharmacy",
+                loginUrl: "https://pharmacy.mmitpharma.com/",
+                userEmail: "admin1@gmail.com",
+                password: "admin1@gmail.com"
+            },
+            {
+                name: "Update School Software",
+                loginUrl: "https://mmitschool.online/",
+                userEmail: "admin@gmail.com",
+                password: "12345678"
+            },
+            {
+                name: "Apartment Software",
+                loginUrl: "http://abason.mmit.xyz/home",
+                userEmail: "admin@mail.com",
+                password: "12345678"
+            },
+            {
+                name: "Update Somity Demo",
+                loginUrl: "https://somiti.hesabmmit.xyz/",
+                userEmail: "admin@gmail.com",
+                password: "123456789"
+            },
+            {
+                name: "Update Diagnostic Software",
+                loginUrl: "http://diagnostic.tahsingreenlife.xyz",
+                userEmail: "superadmin@gmail.com",
+                password: "12345678"
+            },
+            {
+                name: "E-Commerce",
+                urls: [
+                    "https://sobebd.com/",
+                    "https://sauniquebl.com/",
+                    "https://dubaibazarbd.xyz/",
+                    "http://greenmartbd.net",
+                    "http://annextradebd.com/",
+                    "https://enlivenbd.com/"
+                ],
+                loginUrl: "https://greenmartbd.net/"
+            },
+            {
+                name: "Barcode Demo",
+                loginUrl: "https://barcode.cit.edu.bd/",
+                userEmail: "admin@gmail.com",
+                password: "123456789"
+            },
+            {
+                name: "Hotel Update Demo",
+                loginUrl: "https://hotel.hesabmmit.xyz/login",
+                userEmail: "admin@mmit.com",
+                password: "123456789"
+            }
+        ];
+
+        console.log(softwareData.length);
+
+
+        for (let i = 0; i < softwareData.length; i++) {
+            const element = softwareData[i];
+            console.log(element)
+            const tableRow = document.createElement('tr');
+        tableRow.className = 'border-b p-5';
+
+        const cell1 = document.createElement('td');
+        cell1.className = 'font-medium px-1 py-2 text-center';
+        cell1.textContent = element.name;
+        tableRow.appendChild(cell1);
+
+        if(element.userEmail == undefined){
+            const tableCell = document.createElement('td');
+            tableCell.className = 'text-center';
+
+            const icon = document.createElement('i');
+            icon.className = 'fa-solid fa-xmark text-red-600 text-xl';
+
+            tableCell.appendChild(icon);
+
+            tableRow.appendChild(tableCell);
+        }else{
+            const cell2 = document.createElement('td');
+            cell2.className = 'text-center';
+            cell2.textContent = element.userEmail;
+            tableRow.appendChild(cell2);
+        }
+
+        if(element.password === undefined){
+            const tableCell = document.createElement('td');
+            tableCell.className = 'text-center';
+
+            const icon = document.createElement('i');
+            icon.className = 'fa-solid fa-xmark text-red-600 text-xl';
+
+            tableCell.appendChild(icon);
+
+            tableRow.appendChild(tableCell);
+        }else{
+            const cell3 = document.createElement('td');
+            cell3.className = 'text-center';
+            cell3.textContent = element.password;
+            tableRow.appendChild(cell3);
+        }
+        
+
+        const cell4 = document.createElement('td');
+        cell4.className = 'text-center';
+        const demoDashboardLink = document.createElement('a');
+        demoDashboardLink.href = element.loginUrl;
+        demoDashboardLink.target = '_blank';
+        demoDashboardLink.className = 'bg-blue-600 text-white font-medium px-3 py-1 rounded-md hover:bg-blue-700 my-4';
+        demoDashboardLink.textContent = 'Demo Dashboard';
+        cell4.appendChild(demoDashboardLink);
+        tableRow.appendChild(cell4);
+
+        if(element.url === undefined){
+        const tableCell = document.createElement('td');
+        tableCell.className = 'text-center';
+
+        const icon = document.createElement('i');
+        icon.className = 'fa-solid fa-xmark text-red-600 text-xl';
+
+        tableCell.appendChild(icon);
+
+        tableRow.appendChild(tableCell);
+
+        }else {
+            const cell5 = document.createElement('td');
+        cell5.className = 'text-center';
+        const demoAppLink = document.createElement('a');
+        demoAppLink.href = 'https://mmitschool.online/';
+        demoAppLink.target = '_blank';
+        demoAppLink.className = 'bg-blue-600 text-white font-medium px-3 py-1 rounded-md hover:bg-blue-700 my-4';
+        demoAppLink.textContent = 'Demo Application';
+        cell5.appendChild(demoAppLink);
+        tableRow.appendChild(cell5);
+        }
+        
+
+        const tableBody = document.querySelector('tbody');
+        tableBody.appendChild(tableRow);
+            
+        }
+
+        
+
+
+        const DOME = document.querySelector("html");
+        const heading = document.querySelector("h1");
+            function mood(e){
+                console.log(e);
+                console.log(e.innerHTML);
+                if(e.name === "sunny"){
+                    DOME.classList.add("dark")
+
+                    // heading.innerHTML = "Dark Mood Enabled";
+                }else if (e.name === "moon"){
+                    DOME.classList.remove("dark")
+                    // heading.innerHTML = "Light mood Enabled";
+                }
+                if(e.innerHTML === "Dark" || e.name === "moon"){
+                    DOME.classList.add("dark")
+                    document.getElementById("surjo").style.color = "black";
+
+                }else if (e.innerHTML === "Light" || e.name === "sunny"){
+                    DOME.classList.remove("dark")
+                    heading.innerHTML = "Light mood Enabled";
+                }
+            }
+            const unlist = document.querySelector("ul");
+            function menu (e){
+                console.log(e.name)
+                if (e.name === "menu"){
+                    e.name = "close";
+                    // unlist.classList.add("top-[80px]");
+                    unlist.classList.remove("opacity-0")
+                    unlist.classList.remove("top-[-400]")
+                }else if(e.name === "close"){
+                    e.name = "menu"
+                    unlist.classList.add("opacity-0")
+                    unlist.classList.add("top-[-400]")
+                }
+            }
+    </script>
+</body>
+</html>
