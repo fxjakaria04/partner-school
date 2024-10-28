@@ -1,0 +1,161 @@
+[
+    {
+        "name": "School Management Software",
+        "url": "https://mmitschool.online",
+        "loginUrl": "https://mmitschool.online/login",
+        "userEmail": "user-admin@gmail.com",
+        "password": "12345678"
+    },
+    {
+        "name": "Pos Software",
+        "loginUrl": "https://www.pos.mmit.xyz",
+        "userEmail": "admin@gmail.com",
+        "password": "12345678"
+    },
+    {
+        "name": "Accounting Software",
+        "loginUrl": "https://www.pos.mmit.xyz"
+    },
+    {
+        "name": "Pharmacy Software",
+        "loginUrl": "https://pharmacy.mmitpharma.xyz/",
+        "userEmail": "admin1@gmail.com",
+        "password": "admin1@gmail.com"
+    },
+    {
+        "name": "ISP Software",
+        "loginUrl": "http://isp.mmit.xyz/admin",
+        "userEmail": "admin@gmail.com",
+        "password": "password"
+    },
+    {
+        "name": "Advocate Software",
+        "loginUrl": "https://advocate.mmit.xyz",
+        "userEmail": "xdubuque@example.com",
+        "password": "123456"
+    },
+    {
+        "name": "Diagnostic Management System",
+        "loginUrl": "https://diagnostic.tahsingreenlife.xyz/",
+        "userEmail": "superadmin@gmail.com",
+        "password": "12345678"
+    },
+    {
+        "name": "Hotel Management Software Update",
+        "loginUrl": "https://hotel.hesabmmit.xyz/login",
+        "userEmail": "admin@mmit.com",
+        "password": "123456789"
+    },
+    {
+        "name": "E-Courier Management Software",
+        "url": "https://www.parcel.mmitpharma.com",
+        "loginUrl": "https://www.parcel.mmitpharma.com/login",
+        "userEmail": "admin@gmail.com",
+        "password": "admin@gmail.com"
+    },
+    {
+        "name": "Dealership Management Software",
+        "loginUrl": "https://dealer.mmit.xyz/",
+        "userEmail": "superadmin@gmail.com",
+        "password": "password"
+    },
+    {
+        "name": "Agent Software Demo",
+        "loginUrl": "https://institute.mmit.xyz/login",
+        "userEmail": "mmit@gmail.com",
+        "password": "12345678"
+    },
+    {
+        "name": "Somite Management Software",
+        "loginUrl": "https://somiti.hesabmmit.xyz/admin/login",
+        "userEmail": "admin@gmail.com",
+        "password": "123456789"
+    },
+    {
+        "name": "Restaurant Management Software",
+        "loginUrl": "https://restaurant.mmitpharma.xyz/",
+        "userEmail": "superadmin@gmail.com",
+        "password": "password"
+    },
+    {
+        "name": "Coaching Demo",
+        "loginUrl": "https://coaching.mmitpharma.xyz",
+        "userEmail": "superadmin@gmail.com",
+        "password": "admin@gmail.com"
+    },
+    {
+        "name": "Apartment Demo",
+        "url": "https://appartment.softzone24.com/admin/login",
+        "loginUrl": "https://appartment.softzone24.com/admin/login",
+        "userEmail": "admin@gmail.com",
+        "password": "123456789"
+    },
+    {
+        "name": "Computer Training Center",
+        "loginUrl": "https://institute.dhakarkhoborbd.com",
+        "userEmail": "admin@gmail.com",
+        "password": "admin@gmail.com"
+    },
+    {
+        "name": "Update Pharmacy",
+        "loginUrl": "https://pharmacy.mmitpharma.com/",
+        "userEmail": "admin1@gmail.com",
+        "password": "admin1@gmail.com"
+    },
+    {
+        "name": "Update School Software",
+        "loginUrl": "https://mmitschool.online/",
+        "userEmail": "admin@gmail.com",
+        "password": "12345678"
+    },
+    {
+        "name": "Apartment Software",
+        "loginUrl": "http://abason.mmit.xyz/home",
+        "userEmail": "admin@mail.com",
+        "password": "12345678"
+    },
+    {
+        "name": "Update Somity Demo",
+        "loginUrl": "https://somiti.hesabmmit.xyz/",
+        "userEmail": "admin@gmail.com",
+        "password": "123456789"
+    },
+    {
+        "name": "Update Diagnostic Software",
+        "loginUrl": "http://diagnostic.tahsingreenlife.xyz",
+        "userEmail": "superadmin@gmail.com",
+        "password": "12345678"
+    },
+    {
+        "name": "E-Commerce",
+        "urls": [
+            "https://sobebd.com/",
+            "https://sauniquebl.com/",
+            "https://dubaibazarbd.xyz/",
+            "http://greenmartbd.net",
+            "http://annextradebd.com/",
+            "https://enlivenbd.com/"
+        ],
+        "loginUrl": "https://greenmartbd.net/"
+    },
+    {
+        "name": "Barcode Demo",
+        "loginUrl": "https://barcode.cit.edu.bd/",
+        "userEmail": "admin@gmail.com",
+        "password": "123456789"
+    },
+    {
+        "name": "Hotel Update Demo",
+        "loginUrl": "https://hotel.hesabmmit.xyz/login",
+        "userEmail": "admin@mmit.com",
+        "password": "123456789"
+    },
+    {
+        "name": "E-news Software",
+        "url": "https://mmitnews.xyz/"
+    },
+    {
+        "name": "Delarship Management Software",
+        "url": "https://dealer/.mmit.xyz/"
+    }
+]

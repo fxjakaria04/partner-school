@@ -93,9 +93,12 @@
     
     <div class="w-10/12 m-auto my-4 overflow-auto">
         <p class="text-2xl font-medium mb-3 text-[#333333]">Our Products</p>
-        <table class="border w-full" id="pagination-table">
+        <table class="border min-w-full" id="pagination-table">
             <thead>
                 <tr class="border-b">
+                    <th>
+                        <span>Ser</span>
+                    </th>
                     <th class="py-2">
                        <span class="text-center">
                             Product Name
@@ -363,6 +366,11 @@
             console.log(element)
             const tableRow = document.createElement('tr');
         tableRow.className = 'border-b p-5';
+
+        const cell0 = document.createElement('td');
+        cell0.className = 'font-medium px-1 py-2 text-center';
+        cell0.textContent = i + 1;
+        tableRow.appendChild(cell0);
 
         const cell1 = document.createElement('td');
         cell1.className = 'font-medium px-1 py-2 text-center';

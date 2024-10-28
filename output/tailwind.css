@@ -952,6 +952,10 @@ video {
   width: 100%;
 }
 
+.min-w-full {
+  min-width: 100%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
