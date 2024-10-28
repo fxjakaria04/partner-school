@@ -344,6 +344,14 @@
                 loginUrl: "https://hotel.hesabmmit.xyz/login",
                 userEmail: "admin@mmit.com",
                 password: "123456789"
+            },
+            {
+                name: "E-news Software",
+                url: "https://mmitnews.xyz/"
+            },
+            {
+                name: "Delarship Management Software",
+                url: "https://dealer/.mmit.xyz/"
             }
         ];
 
@@ -395,16 +403,28 @@
             tableRow.appendChild(cell3);
         }
         
+        if(element.loginUrl === undefined){
+            const tableCell = document.createElement('td');
+            tableCell.className = 'text-center';
 
-        const cell4 = document.createElement('td');
-        cell4.className = 'text-center';
-        const demoDashboardLink = document.createElement('a');
-        demoDashboardLink.href = element.loginUrl;
-        demoDashboardLink.target = '_blank';
-        demoDashboardLink.className = 'bg-blue-600 text-white font-medium px-3 py-1 rounded-md hover:bg-blue-700 my-4';
-        demoDashboardLink.textContent = 'Demo Dashboard';
-        cell4.appendChild(demoDashboardLink);
-        tableRow.appendChild(cell4);
+            const icon = document.createElement('i');
+            icon.className = 'fa-solid fa-xmark text-red-600 text-xl';
+
+            tableCell.appendChild(icon);
+
+            tableRow.appendChild(tableCell);
+        }else{
+            const cell4 = document.createElement('td');
+            cell4.className = 'text-center';
+            const demoDashboardLink = document.createElement('a');
+            demoDashboardLink.href = element.loginUrl;
+            demoDashboardLink.target = '_blank';
+            demoDashboardLink.className = 'bg-blue-600 text-white font-medium px-3 py-1 rounded-md hover:bg-blue-700 my-4';
+            demoDashboardLink.textContent = 'Demo Dashboard';
+            cell4.appendChild(demoDashboardLink);
+            tableRow.appendChild(cell4);
+        }
+        
 
         if(element.url === undefined){
         const tableCell = document.createElement('td');
