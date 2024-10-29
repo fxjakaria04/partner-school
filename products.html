@@ -318,7 +318,7 @@
                 AnnualServiceCharge: 4000
             },
             {
-                name: "Agent Software Demo",
+                name: "Agent Software",
                 loginUrl: "https://institute.mmit.xyz/login",
                 userEmail: "mmit@gmail.com",
                 password: "12345678",
@@ -348,8 +348,9 @@
                 AnnualServiceCharge: 4000
             },
             {
-                name: "Coaching Demo",
-                loginUrl: "https://coaching.mmitpharma.xyz",
+                name: "Coaching Software",
+                url: "https://coaching.mmitpharma.xyz",
+                loginUrl: "https://coaching.mmitpharma.xyz/login",
                 userEmail: "superadmin@gmail.com",
                 password: "admin@gmail.com",
                 monthlyPrice: 12000,
@@ -358,7 +359,7 @@
                 AnnualServiceCharge: 4000
             },
             {
-                name: "Apartment Demo",
+                name: "Apartment Software",
                 url: "https://appartment.softzone24.com/admin/login",
                 loginUrl: "https://appartment.softzone24.com/admin/login",
                 userEmail: "admin@gmail.com",
@@ -373,56 +374,6 @@
                 loginUrl: "https://institute.dhakarkhoborbd.com",
                 userEmail: "admin@gmail.com",
                 password: "admin@gmail.com",
-                monthlyPrice: 12000,
-                AnnualPrice: 40000,
-                monthlyServiceCharge: 1500,
-                AnnualServiceCharge: 4000
-            },
-            {
-                name: "Update Pharmacy",
-                loginUrl: "https://pharmacy.mmitpharma.com/",
-                userEmail: "admin1@gmail.com",
-                password: "admin1@gmail.com",
-                monthlyPrice: 12000,
-                AnnualPrice: 40000,
-                monthlyServiceCharge: 1500,
-                AnnualServiceCharge: 4000
-            },
-            {
-                name: "Update School Software",
-                loginUrl: "https://mmitschool.online/",
-                userEmail: "admin@gmail.com",
-                password: "12345678",
-                monthlyPrice: 12000,
-                AnnualPrice: 40000,
-                monthlyServiceCharge: 1500,
-                AnnualServiceCharge: 4000
-            },
-            {
-                name: "Apartment Software",
-                loginUrl: "http://abason.mmit.xyz/home",
-                userEmail: "admin@mail.com",
-                password: "12345678",
-                monthlyPrice: 12000,
-                AnnualPrice: 40000,
-                monthlyServiceCharge: 1500,
-                AnnualServiceCharge: 4000
-            },
-            {
-                name: "Update Somity Demo",
-                loginUrl: "https://somiti.hesabmmit.xyz/",
-                userEmail: "admin@gmail.com",
-                password: "123456789",
-                monthlyPrice: 12000,
-                AnnualPrice: 40000,
-                monthlyServiceCharge: 1500,
-                AnnualServiceCharge: 4000
-            },
-            {
-                name: "Update Diagnostic Software",
-                loginUrl: "http://diagnostic.tahsingreenlife.xyz",
-                userEmail: "superadmin@gmail.com",
-                password: "12345678",
                 monthlyPrice: 12000,
                 AnnualPrice: 40000,
                 monthlyServiceCharge: 1500,
@@ -445,19 +396,9 @@
                 AnnualServiceCharge: 4000
             },
             {
-                name: "Barcode Demo",
+                name: "Barcode Software",
                 loginUrl: "https://barcode.cit.edu.bd/",
                 userEmail: "admin@gmail.com",
-                password: "123456789",
-                monthlyPrice: 12000,
-                AnnualPrice: 40000,
-                monthlyServiceCharge: 1500,
-                AnnualServiceCharge: 4000
-            },
-            {
-                name: "Hotel Update Demo",
-                loginUrl: "https://hotel.hesabmmit.xyz/login",
-                userEmail: "admin@mmit.com",
                 password: "123456789",
                 monthlyPrice: 12000,
                 AnnualPrice: 40000,
@@ -606,14 +547,14 @@
 
         }else {
             const cell5 = document.createElement('td');
-        cell5.className = 'text-center';
-        const demoAppLink = document.createElement('a');
-        demoAppLink.href = 'https://mmitschool.online/';
-        demoAppLink.target = '_blank';
-        demoAppLink.className = 'bg-blue-600 text-white font-medium px-3 py-1 rounded-md hover:bg-blue-700 my-4';
-        demoAppLink.textContent = 'Demo';
-        cell5.appendChild(demoAppLink);
-        tableRow.appendChild(cell5);
+            cell5.className = 'text-center';
+            const demoAppLink = document.createElement('a');
+            demoAppLink.href = element.url;
+            demoAppLink.target = '_blank';
+            demoAppLink.className = 'bg-blue-600 text-white font-medium px-3 py-1 rounded-md hover:bg-blue-700 my-4';
+            demoAppLink.textContent = 'Demo';
+            cell5.appendChild(demoAppLink);
+            tableRow.appendChild(cell5);
         }
         
 
