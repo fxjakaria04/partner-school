@@ -63,3 +63,6 @@
   }
 
 }
+abbr {
+  text-decoration: none; /* Remove the underline */
+}

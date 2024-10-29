@@ -94,10 +94,10 @@
     <div class="w-10/12 m-auto my-4 overflow-auto">
         <p class="text-2xl font-medium mb-3 text-[#333333]">Our Products</p>
         <table class="border min-w-full" id="pagination-table">
-            <thead>
+            <thead class="sticky top-0">
                 <tr class="border-b">
                     <th>
-                        <span>Ser</span>
+                        <span class="text-center">Ser</span>
                     </th>
                     <th class="py-2">
                        <span class="text-center">
@@ -105,16 +105,26 @@
                         </span>
                     </th>
                     <th>
-                       <span class="text-center">
-                            Monthly
+                       <span class="text-center px-3">
+                            M.Setup
                         </span>
                     </th>
                     <th>
-                       <span class="text-center">
-                            Anual
+                       <span class="text-center px-3">
+                            M.Service
                         </span>
                     </th>
                     <th>
+                       <span class="text-center px-3">
+                            A.Setup
+                        </span>
+                    </th>
+                    <th>
+                       <span class="text-center px-3">
+                            A.Service
+                        </span>
+                    </th>
+                    <th data-type="date" data-format="Month YYYY">
                        <span class="text-center">
                             UserName
                         </span>
@@ -211,10 +221,12 @@
                 name: "School Management Software",
                 url: "https://mmitschool.online",
                 loginUrl: "https://mmitschool.online/login",
-                userEmail: "user-admin@gmail.com",
+                userEmail: "admin@gmail.com",
                 password: "12345678",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Pos Software",
@@ -222,13 +234,17 @@
                 userEmail: "admin@gmail.com",
                 password: "12345678",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Accounting Software",
                 loginUrl: "https://www.pos.mmit.xyz",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Pharmacy Software",
@@ -236,7 +252,9 @@
                 userEmail: "admin1@gmail.com",
                 password: "admin1@gmail.com",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "ISP Software",
@@ -244,7 +262,9 @@
                 userEmail: "admin@gmail.com",
                 password: "password",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Advocate Software",
@@ -252,7 +272,9 @@
                 userEmail: "xdubuque@example.com",
                 password: "123456",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Diagnostic Management System",
@@ -260,7 +282,9 @@
                 userEmail: "superadmin@gmail.com",
                 password: "12345678",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Hotel Management Software Update",
@@ -268,7 +292,9 @@
                 userEmail: "admin@mmit.com",
                 password: "123456789",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "E-Courier Management Software",
@@ -277,7 +303,9 @@
                 userEmail: "admin@gmail.com",
                 password: "admin@gmail.com",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Dealership Management Software",
@@ -285,7 +313,9 @@
                 userEmail: "superadmin@gmail.com",
                 password: "password",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Agent Software Demo",
@@ -293,23 +323,29 @@
                 userEmail: "mmit@gmail.com",
                 password: "12345678",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
-                name: "Somite Management Software",
+                name: "NGO Management Software",
                 loginUrl: "https://somiti.hesabmmit.xyz/admin/login",
                 userEmail: "admin@gmail.com",
                 password: "123456789",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Restaurant Management Software",
-                loginUrl: "https://restaurant.mmitpharma.xyz/",
+                loginUrl: "https://restaurant.mmitpharma.xyz/login",
                 userEmail: "superadmin@gmail.com",
                 password: "password",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Coaching Demo",
@@ -317,7 +353,9 @@
                 userEmail: "superadmin@gmail.com",
                 password: "admin@gmail.com",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Apartment Demo",
@@ -326,7 +364,9 @@
                 userEmail: "admin@gmail.com",
                 password: "123456789",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Computer Training Center",
@@ -334,7 +374,9 @@
                 userEmail: "admin@gmail.com",
                 password: "admin@gmail.com",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Update Pharmacy",
@@ -342,7 +384,9 @@
                 userEmail: "admin1@gmail.com",
                 password: "admin1@gmail.com",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Update School Software",
@@ -350,7 +394,9 @@
                 userEmail: "admin@gmail.com",
                 password: "12345678",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Apartment Software",
@@ -358,7 +404,9 @@
                 userEmail: "admin@mail.com",
                 password: "12345678",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Update Somity Demo",
@@ -366,7 +414,9 @@
                 userEmail: "admin@gmail.com",
                 password: "123456789",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Update Diagnostic Software",
@@ -374,7 +424,9 @@
                 userEmail: "superadmin@gmail.com",
                 password: "12345678",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "E-Commerce",
@@ -388,7 +440,9 @@
                 ],
                 loginUrl: "https://greenmartbd.net/",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Barcode Demo",
@@ -396,7 +450,9 @@
                 userEmail: "admin@gmail.com",
                 password: "123456789",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Hotel Update Demo",
@@ -404,19 +460,25 @@
                 userEmail: "admin@mmit.com",
                 password: "123456789",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "E-news Software",
                 url: "https://mmitnews.xyz/",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             },
             {
                 name: "Delarship Management Software",
                 url: "https://dealer/.mmit.xyz/",
                 monthlyPrice: 12000,
-                AnnualPrice: 40000
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
             }
         ];
 
@@ -427,7 +489,7 @@
             const element = softwareData[i];
             console.log(element)
             const tableRow = document.createElement('tr');
-        tableRow.className = 'border-b p-5';
+            tableRow.className = 'border-b p-5';
 
         const cell0 = document.createElement('td');
         cell0.className = 'font-medium px-1 py-2 text-center';
@@ -440,14 +502,39 @@
         tableRow.appendChild(cell1);
 
             const cellA = document.createElement('td');
+            const abbriation = document.createElement('abbr');
+            cellA.appendChild(abbriation);
             cellA.className = 'text-center';
-            cellA.textContent = element.monthlyPrice;
+            abbriation.title = "Monthly Setup Charge"
+            abbriation.textContent = element.monthlyPrice;
             tableRow.appendChild(cellA);
 
             const cellB = document.createElement('td');
+            const abbriation2 = document.createElement('abbr');
+            cellB.appendChild(abbriation2);
             cellB.className = 'text-center';
-            cellB.textContent = element.AnnualPrice;
+            abbriation2.title = "Monthly Service Charge"
+            abbriation2.textContent = element.monthlyServiceCharge;
             tableRow.appendChild(cellB);
+
+            const cellC = document.createElement('td');
+            const abbriation3 = document.createElement('abbr');
+            cellC.appendChild(abbriation3);
+            cellC.className = 'text-center';
+            abbriation3.title = "Annual Setup Charge with source code"
+            abbriation3.textContent = element.AnnualPrice;
+            tableRow.appendChild(cellC);
+
+            const cellD = document.createElement('td');
+            const abbriation4 = document.createElement('abbr');
+            cellD.appendChild(abbriation4);
+            cellD.className = 'text-center';
+            abbriation4.title = "Annual Service Charge"
+            abbriation4.textContent = element.AnnualServiceCharge;
+            tableRow.appendChild(cellD);
+
+
+
 
         if(element.userEmail == undefined){
             const tableCell = document.createElement('td');

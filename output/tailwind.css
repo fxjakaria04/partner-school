@@ -699,6 +699,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -1698,6 +1702,11 @@ video {
 
 .duration-200 {
   transition-duration: 200ms;
+}
+
+abbr {
+  text-decoration: none;
+  /* Remove the underline */
 }
 
 .hover\:scale-110:hover {
