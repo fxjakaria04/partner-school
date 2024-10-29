@@ -371,7 +371,8 @@
             },
             {
                 name: "Computer Training Center",
-                loginUrl: "https://institute.dhakarkhoborbd.com",
+                url: "https://institute.dhakarkhoborbd.com",
+                loginUrl:"https://institute.dhakarkhoborbd.com/login",
                 userEmail: "admin@gmail.com",
                 password: "admin@gmail.com",
                 monthlyPrice: 12000,
@@ -389,17 +390,8 @@
                     "http://annextradebd.com/",
                     "https://enlivenbd.com/"
                 ],
-                loginUrl: "https://greenmartbd.net/",
-                monthlyPrice: 12000,
-                AnnualPrice: 40000,
-                monthlyServiceCharge: 1500,
-                AnnualServiceCharge: 4000
-            },
-            {
-                name: "Barcode Software",
-                loginUrl: "https://barcode.cit.edu.bd/",
-                userEmail: "admin@gmail.com",
-                password: "123456789",
+                url:"https://greenmartbd.net/",
+                // loginUrl: "https://greenmartbd.net/",
                 monthlyPrice: 12000,
                 AnnualPrice: 40000,
                 monthlyServiceCharge: 1500,
@@ -438,7 +430,7 @@
         tableRow.appendChild(cell0);
 
         const cell1 = document.createElement('td');
-        cell1.className = 'font-medium px-1 py-2 text-center';
+        cell1.className = 'font-medium px-1 py-2 text-center whitespace-nowrap';
         cell1.textContent = element.name;
         tableRow.appendChild(cell1);
 
