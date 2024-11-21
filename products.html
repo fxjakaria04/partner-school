@@ -91,11 +91,11 @@
     </div>
 
     
-    <div class="w-10/12 m-auto my-4 overflow-auto">
-        <p class="text-2xl font-medium mb-3 text-[#333333]">Our Products</p>
+    <div class="w-10/12 m-auto my-4 ">
+        <p class="text-2xl font-medium mb-3 text-[#333333] overflow-auto">Our Products</p>
         <table class="border min-w-full" id="pagination-table">
             <thead class="sticky top-0">
-                <tr class="border-b">
+                <tr class="border-b bg-white">
                     <th>
                         <span class="text-center">Ser</span>
                     </th>
@@ -257,6 +257,17 @@
                 AnnualServiceCharge: 4000
             },
             {
+                name: "E-Courier Software",
+                loginUrl: "https://courier.softzone24.xyz/merchants/login",
+                url: "https://courier.softzone24.xyz/",
+                userEmail: "admin@gmail.com",
+                password: "123456789",
+                monthlyPrice: 12000,
+                AnnualPrice: 40000,
+                monthlyServiceCharge: 1500,
+                AnnualServiceCharge: 4000
+            },
+            {
                 name: "ISP Software",
                 loginUrl: "http://isp.mmit.xyz/admin",
                 userEmail: "admin@gmail.com",
@@ -291,17 +302,6 @@
                 loginUrl: "https://hotel.hesabmmit.xyz/login",
                 userEmail: "admin@mmit.com",
                 password: "123456789",
-                monthlyPrice: 12000,
-                AnnualPrice: 40000,
-                monthlyServiceCharge: 1500,
-                AnnualServiceCharge: 4000
-            },
-            {
-                name: "E-Courier Management Software",
-                url: "https://www.parcel.mmitpharma.com",
-                loginUrl: "https://www.parcel.mmitpharma.com/login",
-                userEmail: "admin@gmail.com",
-                password: "admin@gmail.com",
                 monthlyPrice: 12000,
                 AnnualPrice: 40000,
                 monthlyServiceCharge: 1500,
@@ -422,7 +422,7 @@
             const element = softwareData[i];
             console.log(element)
             const tableRow = document.createElement('tr');
-            tableRow.className = 'border-b p-5';
+            tableRow.className.add = 'border-b p-5';
 
         const cell0 = document.createElement('td');
         cell0.className = 'font-medium px-1 py-2 text-center';
